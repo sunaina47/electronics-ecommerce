@@ -1,15 +1,14 @@
-// src/layouts/MainLayout.js
-import React from "react";
-import Header from "../Header"; // Adjust path as necessary
-import Footer from "../Footer"; // Adjust path as necessary
+// src/components/Layout/MainLayout.js
+import Header from "../Header";
+import Footer from "../Footer";
 
 const MainLayout = ({ children }) => {
   return (
-    <div>
+    <>
       <Header />
       <main>{children}</main>
       <Footer />
-    </div>
+    </>
   );
 };
 

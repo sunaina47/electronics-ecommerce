@@ -1,12 +1,12 @@
 import "@/components/styles/globals.css";
-import MainLayout from "@/components/Layout/MainLayout"; // Import your layout
+import MainLayout from "@/components/Layout/MainLayout";
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <MainLayout>
-      <Component {...pageProps} /> {/* This renders each page */}
+      <Component {...pageProps} />
     </MainLayout>
   );
-}
+};
 
 export default MyApp;

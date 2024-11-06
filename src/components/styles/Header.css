@@ -1,0 +1,33 @@
+header {
+    background-color: #282c34;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    color: white;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li ul {
+    display: none; /* Hide dropdown */
+    position: absolute; /* Position it */
+    background-color: #282c34; /* Same background */
+  }
+  
+  nav ul li:hover ul {
+    display: block; /* Show on hover */
+  }
+  
+  nav ul li ul li {
+    display: block; /* Stack dropdown items */
+  }
